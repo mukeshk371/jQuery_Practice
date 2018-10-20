@@ -1,0 +1,74 @@
+* {
+	color: #34495e;
+	text-align: center;
+	background-color: #FAFAFA;
+}
+
+p,
+h3, 
+h4, 
+section {
+	font-size: 20px;
+	margin: 10px;
+	background-color: white;
+}
+
+.paragraph, 
+h3 {
+	cursor: pointer;
+}
+
+a {
+	text-decoration: none;
+}
+
+div {
+	background-color: white;
+	border: 1px solid #16a085;
+	border-radius: 10px;
+	margin: 15px;
+	box-shadow: 2px 2px 3px black;
+}
+
+button {
+	color: #e74c3c;
+	padding: 5px 15px;
+	background-color: transparent;
+	border: 1px solid #e74c3c;
+	border-radius: 20px;
+	cursor: pointer;
+	margin: 10px;
+}
+
+button:hover {
+	background-color: #e74c3c;
+    border: 1px solid #e67e22;
+    color: #fff;
+    transition-duration: 0.4s;
+    box-shadow: 2px 2px 3px black;
+}
+
+.p1,
+.fadeOut-1,
+.fadeToggle-1,
+.fadeTo-1 {
+	background-color: aqua;
+}
+
+.p2,
+.fadeOut-2,
+.fadeToggle-2,
+.fadeTo-2 {
+	background-color: green;
+}
+
+.p3,
+.fadeOut-3,
+.fadeToggle-3,
+.fadeTo-3 {
+	background-color: blue;
+}
+
+.fadeIn {
+	display: none;
+}
